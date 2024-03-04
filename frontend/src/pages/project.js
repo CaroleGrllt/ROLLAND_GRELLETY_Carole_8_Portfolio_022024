@@ -2,7 +2,9 @@ import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Projects from '../json/projects.json';
 import Footer from '../components/Footer';
-import Error from './error'
+import Error from './error';
+
+
 
 export default function Project () {
 

@@ -6,12 +6,12 @@ import background from '../assets/img/home_background.jpg';
 export default function Home () {
     return(
         <>
-        <header className="header">  
+        <header>  
             <Header
                 cover={background}
                 alt={'Illustration couverture'}
                 title={'Carole ROLLAND GRELLETY'}
-                subtitle={'Développeuse web front-end'}
+                subtitle={<>Développeuse web <span className="bold">front-end</span></>}
             />
         </header>
         <main>

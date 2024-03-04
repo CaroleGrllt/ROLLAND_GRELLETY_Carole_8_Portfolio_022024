@@ -1,20 +1,19 @@
-import { Link } from "react-router-dom";
 
 
 export default function Header({cover, alt, title, year, subtitle}) {
     return (
-        <div id="header" className="header">
+        <>
             <div className="navigation__container">
                 <nav>
                     <ul>
                         <li>
-                            <Link to={"/#about"}>A propos</Link>
+                            <a href="#about">A propos</a>
                         </li>
                         <li>
-                            <Link to={"/#skills"}>Réalisations et compétences</Link>
+                            <a href="#skills">Réalisations et compétences</a>
                         </li>
                         <li>
-                            <Link to={"/#contact"}>Contact</Link>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -22,12 +21,12 @@ export default function Header({cover, alt, title, year, subtitle}) {
             <div className="cover__container">
                 <div className="background-cover">
                     <img src={cover} alt={alt}/>
-                    <div className="title">
-                        <h1>{title} <span>{year}</span></h1>
-                        <span>{subtitle}</span>
-                    </div>
                 </div>
+                <div className="title">
+                    <h1>{title} <span className="regular_italic">{year}</span></h1>
+                    <span>{subtitle}</span>
+                </div>    
             </div>
-        </div>
+        </>
     )
 }

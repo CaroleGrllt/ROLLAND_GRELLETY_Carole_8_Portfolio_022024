@@ -1,0 +1,52 @@
+@import '../utils/mixins';
+@import '../utils/variables';
+
+*{
+    font-family: 'Krub' !important;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 7.5vw;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.4;
+
+    @include phablet {
+        font-size: 5vw;
+    }
+
+    @include tablet {
+        font-size: 4.5vw;
+    }
+
+    @include laptop_xl {
+        font-size: 4vw;
+    }
+
+    @include desktop {
+        font-size: 55px;
+    }
+}
+
+.bold {
+    font-weight: 700 !important;
+}
+
+.italic {
+    font-style: italic !important;
+}
+
+.regular_italic {
+    font-style: italic !important;
+    font-weight: 400 !important;
+}
+
+.bold_italic {
+    font-style: italic !important;
+    font-weight: 700 !important;
+}
