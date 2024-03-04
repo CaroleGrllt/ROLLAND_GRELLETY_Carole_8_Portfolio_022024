@@ -2,7 +2,9 @@
     {
         "id": "1",
         "title": "BOOKI",
+        "year": "2023",
         "cover": "",
+        "alt": "Illustration projet Booki",
         "picture": [
             ""
         ],
@@ -23,7 +25,9 @@
     {
         "id": "2",
         "title": "SOPHIE BLUEL",
+        "year": "2023",
         "cover": "",
+        "alt": "Illustration projet Sophie Bluel",
         "picture": [
             ""
         ],
@@ -44,7 +48,9 @@
     {
         "id": "3",
         "title": "MENU MAKER",
+        "year": "2023",
         "cover": "",
+        "alt": "Illustration projet Menu Maker",
         "picture": [
             ""
         ],
@@ -65,7 +71,9 @@
     {
         "id": "4",
         "title": "NINA CARDUCCI",
+        "year": "2023",
         "cover": "",
+        "alt": "Illustration projet Nina Carducci",
         "picture": [
             ""
         ],
@@ -86,7 +94,9 @@
     {
         "id": "5",
         "title": "KASA",
+        "year": "2023",
         "cover": "",
+        "alt": "Illustration projet Kasa",
         "picture": [
             ""
         ],
@@ -106,7 +116,9 @@
     {
         "id": "6",
         "title": "MON VIEUX GRIMOIRE",
+        "year": "2024",
         "cover": "",
+        "alt": "Illustration projet Mon vieux grimoire",
         "picture": [
             ""
         ],
