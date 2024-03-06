@@ -1,0 +1,15 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.tags-list {
+    display: grid;
+    grid-gap: 5px;
+
+    span {
+        border: 1px solid $green;
+        background-color: $green;
+        border-radius: 20px;
+        padding: 5px 10px;
+        color: $white;
+    }
+}

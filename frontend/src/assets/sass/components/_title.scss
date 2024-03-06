@@ -1,0 +1,22 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.section__title {
+    font-weight: 400;
+    font-size: 6.5vw;
+
+    @include phablet {
+        font-size: 4vw;
+    }
+
+    @include tablet {
+        font-size: 3.5vw;
+    }
+
+    @include laptop_xl {
+        font-size: 3dvw;
+    }
+    @include desktop {
+        font-size: 45px;
+    }
+}

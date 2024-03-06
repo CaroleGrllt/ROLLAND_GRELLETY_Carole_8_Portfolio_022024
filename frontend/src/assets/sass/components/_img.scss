@@ -1,0 +1,14 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.img {
+    width: 100%;
+
+    @include phablet {
+        width: 70%;
+    }
+
+    @include tablet {
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.txt {
+    @include phablet {
+        font-size: 18px;
+    }
+
+    @include laptop {
+        font-size: 20px;
+    }
+
+    @include laptop_xl {
+        font-size: 22px;
+    }
+
+    @include desktop {
+        font-size: 24px;
+    }
+
+    span.bold {
+        color: $orange;
+    }
+}

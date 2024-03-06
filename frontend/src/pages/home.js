@@ -8,7 +8,8 @@ import Card from '../components/Card';
 
 import Projects from '../json/projects.json';
 import background from '../assets/img/home_background.jpg';
-import profil from '../assets/img/profil.jpeg'
+import profil from '../assets/img/about_profil.webp';
+import Cover from '../assets/img/cover/booki_cover.webp'
 
 
 export default function Home () {
@@ -23,10 +24,12 @@ export default function Home () {
             />
         </header>
         <main>
-            <Layout50>
+            <Layout50 
+                id={"about"}
+            >
                 <>
                     <Text
-                        el={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel mi porta, posuere urna vitae, condimentum quam. Aliquam tincidunt dui lacus, eget finibus sapien vehicula eu. In posuere purus ut tempor feugiat. Sed nisl erat, blandit sit amet scelerisque in, eleifend sit amet purus. Duis pellentesque magna ac scelerisque fermentum. Morbi et lectus massa.'}
+                        el={<>Après plusieurs années dans la Fonction Publique Territoriale, j'ai décidé de me reconvertir et me former, chez OpenClassrooms, au métier de <span className="bold">Développeuse Web.</span><br/><br/>Spécialisée dans le développement <span className="bold">front-end</span>, mes connaissances en back-end me permettent d'avoir une compréhension globale d'un projet et de <span className="bold">faciliter le travail d'équipe.</span></>}
                     />
                 </>
                 <>
@@ -37,18 +40,18 @@ export default function Home () {
                 </>
             </Layout50>
             <LayoutCard 
-            title={'eee'}
-            text={'rrrr'}
+                id={"skills"}
+                text={'Développement d\'application web front-end et de sites vitrines.'}
             >
-                
                 {Projects.map(project => {
                     return <Card
                         key={project.id}
                         id={project.id}
-                        cover={project.cover}
+                        cover={Cover}
+                        alt={project.alt}
                         title={project.title}
                         subtitle={project.subtitle}
-                        tag={project.tags}
+                        tags={project.tags}
                     />
                 })}
             </LayoutCard>

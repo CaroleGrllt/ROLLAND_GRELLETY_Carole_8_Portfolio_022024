@@ -3,6 +3,8 @@
 
 *{
     font-family: 'Krub' !important;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -11,7 +13,9 @@ body {
 }
 
 main {
-    @include container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -53,4 +57,12 @@ h1 {
 .bold_italic {
     font-style: italic !important;
     font-weight: 700 !important;
+}
+
+.hide {
+    display: none;
+
+    @include laptop {
+        display: block;
+    }
 }

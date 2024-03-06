@@ -7,13 +7,13 @@ export default function Header({cover, alt, title, year, subtitle}) {
                 <nav>
                     <ul>
                         <li>
-                            <a href="#about">A propos</a>
+                            <a href="/#about">A propos</a>
                         </li>
                         <li>
-                            <a href="#skills">Réalisations et compétences</a>
+                            <a href="/#skills">Réalisations et compétences</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="/#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>

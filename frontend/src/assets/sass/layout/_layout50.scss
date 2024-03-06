@@ -1,5 +1,28 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
 .layout50 {
+    @include container;
+
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
+    padding: 25px;
+
+    @include tablet {
+        grid-template-columns: 1fr 1fr;
+        margin: 40px 0;
+        gap: 50px;
+        padding: 0;
+    }
+
+    @include laptop {
+        margin: 60px 0;
+        gap: 60px;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+    }
 }
