@@ -7,7 +7,23 @@ article {
         text-decoration: none;
         color: $black;
 
+        img {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
         .card__item {
+            filter: drop-shadow(0px 3px 15px grey);
+            background-color: $lightgrey;
+            border-radius: 20px;
+
+            @include laptop_xl {
+                height: 445px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
             .cover__container {
                 img {
                     width: 100%;
@@ -18,11 +34,37 @@ article {
                 display: flex;
                 flex-direction: column;
                 align-items: stretch;
-                padding: 5px;
+                padding: 15px;
+
+                @include phablet {
+                    padding: 20px 25px;
+                }
 
                 h3 {
                     font-size: 6vw;
                     text-align: center;
+                    margin-bottom: 15px;
+
+                    @include phablet {
+                        margin-bottom: 20px;
+                        font-size: 5.5vw;
+                    }
+
+                    @include tablet {
+                        font-size: 3.5vw;
+                    }
+
+                    @include laptop {
+                        font-size: 3vw;
+                    }
+
+                    @include laptop_xl {
+                        font-size: 2.5vw;
+                    }
+
+                    @include desktop {
+                        font-size: 35px;
+                    }
                 }
 
                 span {

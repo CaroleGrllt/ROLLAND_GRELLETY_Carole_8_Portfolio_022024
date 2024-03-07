@@ -6,6 +6,15 @@
     grid-gap: 5px;
     margin: 20px 0 25px;
 
+    @include phablet {
+        grid-gap: 10px;
+        margin: 25px 0 30px;
+    }
+
+    @include tablet {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     span {
         border: 1px solid $green;
         background-color: $green;

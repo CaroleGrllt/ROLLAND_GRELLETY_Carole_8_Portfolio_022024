@@ -1,5 +1,3 @@
-
-
 [
     {
         "id": "1",
@@ -16,12 +14,12 @@
             "CSS",
             "GITHUB"
         ],
-        "description": "",
-        "mission":"",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
         "skills": [
-            "",
-            ""
-        ]
+            "1",
+            "2"
+        ],
+        "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_2_Booki_042023"
     },
 
     {
@@ -39,12 +37,13 @@
             "CSS",
             "JAVASCRIPT"
         ],
-        "description": "",
-        "mission":"",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
         "skills": [
-            "",
-            ""
-        ]
+            "1",
+            "2"
+        ],
+        "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_3_portfolio_052023"
+
     },
 
     {
@@ -62,12 +61,12 @@
             " ",
             " "
         ],
-        "description": "",
-        "mission":"",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
         "skills": [
-            "",
-            ""
-        ]
+            "1",
+            "2"
+        ],
+        "code":"/"
     },
 
     {
@@ -85,12 +84,12 @@
             "JAVASCRIPT",
             "SEO"
         ],
-        "description": "",
-        "mission":"",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
         "skills": [
-            "",
-            ""
-        ]
+            "1",
+            "2"
+        ],
+        "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_5_Carducci_102023"
     },
 
     {
@@ -107,12 +106,12 @@
             "REACT",
             "SASS"
         ],
-        "description": "",
-        "mission":"",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
         "skills": [
-            "",
-            ""
-        ]
+            "1",
+            "2"
+        ],
+        "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_6_Kasa_122023"
     },
     
     {
@@ -129,11 +128,11 @@
             "REACT",
             "SASS"
         ],
-        "description": "",
-        "mission":"",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
         "skills": [
-            "",
-            ""
-        ]
+            "1",
+            "2"
+        ],
+        "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_7_Mon-vieux-grimoire_012024"
     }
 ]

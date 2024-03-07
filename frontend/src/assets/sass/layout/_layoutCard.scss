@@ -5,6 +5,18 @@
     background-color:  $lightgrey;
     padding: 25px;
 
+    @include phablet {
+        padding: 25px 0,
+    }
+
+    @include tablet {
+        padding: 40px 0;
+    }
+
+    @include laptop {
+        padding: 50px 0 40px;
+    }
+
     .container {
         @include container;
         @include phablet {
@@ -21,10 +33,18 @@
                 width: 70%;
                 align-self: center;
             }
+
+            @include laptop {
+                margin: 40px 0 60px;
+            }
     
             @include tablet {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr;
                 width: 100%;
+            }
+
+            @include laptop_xl {
+                grid-template-columns: 1fr 1fr 1fr;
             }
         }
     }
