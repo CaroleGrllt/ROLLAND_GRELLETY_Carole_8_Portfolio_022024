@@ -14,19 +14,17 @@
         .cards {
             display: grid;
             grid-template-columns: 1fr;
-            grid-gap: 20px;
+            grid-gap: 50px;
             margin: 40px 0;
 
             @include phablet {
                 width: 70%;
                 align-self: center;
-                grid-gap: 35px;
             }
     
             @include tablet {
                 grid-template-columns: 1fr 1fr 1fr;
                 width: 100%;
-                grid-gap: 50px;
             }
         }
     }
