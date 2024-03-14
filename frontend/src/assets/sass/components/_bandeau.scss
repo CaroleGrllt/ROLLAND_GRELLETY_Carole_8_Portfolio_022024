@@ -1,0 +1,9 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.contact_cover {
+    img {
+        width: 100%;
+        border-radius: 20px;
+    }
+}

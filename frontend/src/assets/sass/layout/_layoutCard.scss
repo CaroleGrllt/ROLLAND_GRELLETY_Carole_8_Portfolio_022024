@@ -4,6 +4,7 @@
 .layout__card {
     background-color:  $lightgrey;
     padding: 25px;
+    margin: 20px 0 40px;
 
     @include phablet {
         padding: 25px 0,

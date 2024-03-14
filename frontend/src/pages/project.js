@@ -6,7 +6,7 @@ import Error from './error';
 import Image from '../components/Image';
 import background from '../assets/img/home_background.jpg';
 import ImgProjet from '../assets/img/projects/booki_projet.webp';
-import Layout50 from '../layout/layout50-50';
+import Layout50 from '../layout/layout50';
 import Collapse from '../components/Collapse';
 import Button from '../components/Button';
 

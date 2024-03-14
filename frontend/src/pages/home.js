@@ -1,16 +1,25 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Layout50 from '../layout/layout50-50';
+import Layout50 from '../layout/layout50';
 import LayoutCard from '../layout/layoutCard';
 import Text from '../components/Text';
 import Image from '../components/Image';
 import Card from '../components/Card';
-
+import Title from '../components/Title';
+import Download from '../components/Download';
+import Bandeau from '../components/Bandeau';
+import Picto from '../components/Picto';
 import Projects from '../json/projects.json';
 import background from '../assets/img/home_background.jpg';
 import profil from '../assets/img/about_profil.webp';
-import Cover from '../assets/img/cover/booki_cover.webp'
+import cv from '../download/CV_ROLLAND_GRELLETY_Carole.pdf';
+import team from '../assets/img/team.jpg'
+import call from '../assets/img/pictogrammes/call.png';
+import email from '../assets/img/pictogrammes/email.png';
+import github from '../assets/img/pictogrammes/github.png';
+import linkedin from '../assets/img/pictogrammes/linkedin.png';
 
+import Cover from '../assets/img/cover/booki_cover.webp';
 
 export default function Home () {
     return(
@@ -39,27 +48,50 @@ export default function Home () {
                     />
                 </>
             </Layout50>
-            <LayoutCard 
-                id={"skills"}
-                text={'Développement d\'application web front-end et de sites vitrines.'}
-            >
-                {Projects.map(project => {
-                    return <Card
-                        key={project.id}
-                        id={project.id}
-                        cover={Cover}
-                        alt={project.alt}
-                        title={project.title}
-                        subtitle={project.subtitle}
-                        tags={project.tags}
+            <section id="skills" class="layout__card">
+                <div className="container">
+                    <Title 
+                        title={<>Découvrir mes <span className='bold'>réalisations</span> <br className="hide"/>et mes <span className='bold'>compétences</span></>}
                     />
-                })}
-            </LayoutCard>
+                    <Text 
+                        el="Développement d'applications web front-end et de sites vitrines."
+                    />
+                    <LayoutCard >
+                        {Projects.map(project => {
+                            return <Card
+                                key={project.id}
+                                id={project.id}
+                                cover={Cover}
+                                alt={project.alt}
+                                title={project.title}
+                                subtitle={project.subtitle}
+                                tags={project.tags}
+                            />
+                        })}
+                    </LayoutCard>
+                    <Download 
+                        link={cv}
+                        text={"Télécharger mon CV"}
+                    />
+                </div>
+            </section>
+
+            <section id="contact" className='contact'>
+                <div className="container">
+                <Title title={<>Vous avez un <span className='bold'>projet</span> ? Parlons-en !</>} />
+                <Bandeau img={team} alt={"Illustration équipe"}/>
+                <div className='picto_container'>
+                    <Picto source={call} alt={"pictogramme téléphone"} info={"06.10.84.38.67"} />
+                    <Picto source={email} alt={"pictogramme email"} info={"carole.grellety@gmail.com"} />
+                    <Picto source={github} alt={"pictogramme GitHub"} info={"Je sais plus"} />
+                    <Picto source={linkedin} alt={"pictogramme LinkedIn"} info={"Carole Rolland Grellety"} />
+                </div>
+                </div>
+            </section>
         </main>
         <footer>
             <Footer />
         </footer>
-
         </>
     )
 }

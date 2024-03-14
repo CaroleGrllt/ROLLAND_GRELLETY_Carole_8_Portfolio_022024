@@ -96,7 +96,7 @@
         "id": "5",
         "title": "KASA",
         "year": "(2023)",
-        "cover": "",
+        "cover": "https://photos.google.com/photo/AF1QipNKBDOKLdaiPnOLDMNvrMpYEbUzVNMDxkET-KBu",
         "alt": "Illustration projet Kasa",
         "picture": [
             ""
@@ -125,8 +125,9 @@
         ],
         "subtitle": "Développer le back-end d'un site de publication et de notation de livres.",
         "tags": [
-            "REACT",
-            "SASS"
+            "NODEJS",
+            "EXPRESS",
+            "MONGODB"
         ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
         "skills": [
