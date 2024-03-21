@@ -4,11 +4,13 @@ import Projects from '../json/projects.json';
 import Footer from '../components/Footer';
 import Error from './error';
 import Image from '../components/Image';
-import background from '../assets/img/home_background.jpg';
+import background from '../assets/img/cover/home_background.webp';
+
 import ImgProjet from '../assets/img/projects/booki_projet.webp';
+
 import Layout50 from '../layout/layout50';
 import Collapse from '../components/Collapse';
-import Button from '../components/Button';
+import Button from '../components/LinkButton';
 
 
 export default function Project () {
@@ -40,7 +42,7 @@ export default function Project () {
                     </section>
                     <Layout50>
                         <Collapse title={'Missions et problématiques'} description={project.description}/>
-                        <Collapse title={'Compétences développées'} description={project.skills.map((el, key) => <ul><li key={"equipements-"+key} className="equipments-list">{el}</li></ul>)}/>
+                        <Collapse title={'Compétences développées'} description={project.skills.map((el, key) => <span key={"equipements-"+key} className="equipments-list">{el}</span>)}/>
                     </Layout50>
                     <section className='btn'>
                         <Button link={project.code} text={"Voir le projet"} />

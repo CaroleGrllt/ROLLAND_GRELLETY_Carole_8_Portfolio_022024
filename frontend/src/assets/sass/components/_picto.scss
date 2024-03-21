@@ -2,35 +2,43 @@
 @import '../utils/mixins';
 
 .picto_content {
-    display: flex;
-    margin: 10px 0;
-    flex-direction: column;
-    align-items: center;
+    a {
+        display: flex;
+        margin: 10px 0;
+        flex-direction: column;
+        align-items: center;
+        color: $green;
 
-    @include phablet {
-        flex-direction: row;
-        justify-content: center;
-        margin: 15px 0;
-    }
+
     
-
-    .img_picto {
-        width: 10%;
-        border: 2px solid $green;
-        border-radius: 30px;
-        padding: 10px 10px 6px;
-        vertical-align: middle;
-
         @include phablet {
-            width: 5%;
+            flex-direction: row;
+            justify-content: center;
+            margin: 15px 0;
         }
 
-        img {
-            width: 100%;
+        .img_picto {
+            width: 10%;
+            border: 2px solid $green;
+            border-radius: 30px;
+            padding: 10px 10px 6px;
+            vertical-align: middle;
+    
+            @include phablet {
+                width: 5%;
+            }
+    
+            img {
+                width: 100%;
+            }
         }
-    }
+    
+        .info_picto {
+            margin: 10px;
 
-    .info_picto {
-        margin: 10px;
+            &:hover {
+                color: $orange;
+            }
+        }
     }
 }

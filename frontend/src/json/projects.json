@@ -14,10 +14,13 @@
             "CSS",
             "GITHUB"
         ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
+        "description": "Objectif de la mission : intégrer l'interface visuelle d'une application de réservation d'hébergement en HTML/CSS en tenant compte des maquettes mobile/tablette/ordinateur. Pour ce premier projet, pas de difficulté rencontrée.",
         "skills": [
-            "1",
-            "2"
+            "- Définir la structure d'une page web à partir d'une maquette.",
+            "- Intégrer du contenu conformément à la maquette.",
+            "- Adapter l'affichage d'un site web à différentes tailles d'écran.",
+            "- Assurer la conformité d'une page web aux standards HTML/CSS.",
+            "- Utiliser un système de gestion de versions pour le suivi du projet."
         ],
         "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_2_Booki_042023"
     },
@@ -31,16 +34,17 @@
         "picture": [
             ""
         ],
-        "subtitle": "Développer le front-end du site portfolio d'une architecte d'intérieur.",
+        "subtitle": "Développer l'interface dynamique du site portfolio d'une architecte d'intérieur.",
         "tags": [
             "HTML",
             "CSS",
             "JAVASCRIPT"
         ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
+        "description": "Objectif de la mission : concevoir un front-end dynamique pour le portfolio d'une architecte d'intérieur (back-end préexistant). Récupérer les travaux, appliquer des filtres pour trier en fonction de la catégorie. Corriger les erreurs de code JavaScript ne permettant pas un tri efficient par catégorie. Permettre à l'architecte de se connecter à son back office afin de gérer ses travaux (ajout/suppression de photos). Difficultés rencontrées : gestion des requêtes HTTP avec fetch, notamment pour la suppression des images sans rafraîchissement de la page. Résolution des problèmes : poser étape par étape le cheminement, effectuer de nombreuses recherches auprès de la communauté des développeurs web (forum / documentation).",
         "skills": [
-            "1",
-            "2"
+            "- Manipuler les éléments du DOM avec JavaScript.",
+            "- Gérer les événements utilisateurs en JavaScript.",
+            "- Récupérer les données des utilisateurs via des formulaires."
         ],
         "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_3_portfolio_052023"
 
@@ -48,29 +52,6 @@
 
     {
         "id": "3",
-        "title": "MENU MAKER",
-        "year": "(2023)",
-        "cover": "",
-        "alt": "Illustration projet Menu Maker",
-        "picture": [
-            ""
-        ],
-        "subtitle": "Préparer et planifier le développement du site Menu Maker et mettre en place une méthode de travail agile.",
-        "tags": [
-            " ",
-            " ",
-            " "
-        ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
-        "skills": [
-            "1",
-            "2"
-        ],
-        "code":"/"
-    },
-
-    {
-        "id": "4",
         "title": "NINA CARDUCCI",
         "year": "(2023)",
         "cover": "",
@@ -84,19 +65,23 @@
             "JAVASCRIPT",
             "SEO"
         ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
+        "description": "Objectif de la mission : Analyser et améliorer le code fourni (respect des standards), les performances (temps de chargement, poids), l'accessibilité et le SEO d'un site préexistant. Analyse du code fourni pour en corriger les erreurs et retravailler la structure HTML pour la rendre conforme aux bonnes pratiques et maintenable. Mise en place d'un référencement local via schema.org et utilisation des metadonnées pour les réseaux sociaux.  Difficulté rencontrée : La difficulté rencontrée sur cette mission concerna l'optimisation des performances du site pour arriver à un score acceptable. Résolution du problème : analyser et retravailler le code JavaScript fourni en supprimant toutes les ressources inutilisées. Redimensionnement des images et convertion dans un format pour léger. Mise en place d'un choix, par le navigateur, de la taille d'image à choisir selon l'écran.",
         "skills": [
-            "1",
-            "2"
+            "- Réaliser la veille portant sur les bonnes pratiques en développpement web.",
+            "- Optimiser le référencement d'un site web.",
+            "- Ecrire du code HTML à jour et maintenable.",
+            "- Optimiser la taille et la vitesse d'un site web",
+            "- Assurer l'accessibilité du site",
+            "- Présenter les résultats d'analyse démontrant l'efficacité du travail réalisé."
         ],
         "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_5_Carducci_102023"
     },
 
     {
-        "id": "5",
+        "id": "4",
         "title": "KASA",
         "year": "(2023)",
-        "cover": "https://photos.google.com/photo/AF1QipNKBDOKLdaiPnOLDMNvrMpYEbUzVNMDxkET-KBu",
+        "cover": "",
         "alt": "Illustration projet Kasa",
         "picture": [
             ""
@@ -106,16 +91,20 @@
             "REACT",
             "SASS"
         ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
+        "description": "Objectif de la mission : Développer l'ensemble d'une interface en React, via create-react-app avec la mise en place de composants réutilisables, l'utilisation de routes (react Router) et l'utilisation de Sass pour la création stylistique. Le back-end était fourni. Difficultés rencontrées : la difficulté rencontrée a été la prise en main 'from scratch' de React. Il a fallu beaucoup de temps pour comprendre. Résolution du problème : Des séances de mentorat ont été passées exclusivement à l'explication de React. J'ai également visualisé de nombreuses vidéos et fait des exercices en plus pour comprendre l'initialisation de l'application et son utilisation. La communauté des étudiants et la communauté des développeurs sur les forums m'ont également permis de comprendre les subtilités de cette technologies.",
         "skills": [
-            "1",
-            "2"
+            "- Installer et configurer son environnement avec create-react-app.",
+            "- Dévelpper une interface utilisateur.",
+            "- Structurer le code en composants afin d'optimiser son organisation.",
+            "- Configurer la navigation avec react-router.",
+            "- Développer une interface avec Sass et mettre en oeuvre des animations CSS.",
+            "- Manipuler les hooks."
         ],
         "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_6_Kasa_122023"
     },
     
     {
-        "id": "6",
+        "id": "5",
         "title": "MON VIEUX GRIMOIRE",
         "year": "(2024)",
         "cover": "",
@@ -129,10 +118,14 @@
             "EXPRESS",
             "MONGODB"
         ],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in neque dignissim velit sodales fermentum. Sed sagittis tellus et mi viverra pulvinar quis sit amet sapien. Curabitur mollis iaculis egestas. Nunc ac consequat sapien. Morbi ac fringilla neque. Mauris finibus elementum imperdiet. Nulla id quam interdum, ultrices tellus vel, placerat lectus. Sed metus mauris, suscipit eget diam eget, suscipit ornare nisi. Nulla dui neque, facilisis ac porta ut, vehicula eget odio. Mauris id enim in tortor egestas accumsan sit amet sit amet diam. Maecenas sit amet libero quis quam lobortis scelerisque. Curabitur eleifend hendrerit tellus vel congue. Suspendisse fermentum cursus nisi, vitae consectetur dui porttitor eu. Quisque ultricies sagittis feugiat.",
+        "description": "Objectif de la mission : Créer la partie back-end d'un site de publication et de notation de livres (front-end fourni). Mettre en place du API conforme aux spécifications techniques fournies. Le back-end est développé avec Node.Js, Express et MongoDB. Mise en place des opération CRUD, gestion de la sécurité de la base de données et des connexions des utilisateurs via les JWT (jsonwebtoken = clef de connexion unique). Mise en place des bonnes pratiques du Green Code avec le redimensionnement des images publiées. Difficultés rencontrées : deux difficultés ont été rencontrées sur ce projet. Le premier concernant la mise à jour d'un livre sans mise à jour de l'image correspondante. La seconde concernant la notation. Résolution des problèmes : concernant la première difficulté, il s'agissait d'une erreur d'inattention et il a fallu principalement reprendre la documentation fournie. En effet, il manquait une ligne de code. Pour la seconde difficulté, des recherches sur des forums m'a permis de trouver des exemples approchants que j'ai adapté à mon code.",
         "skills": [
-            "1",
-            "2"
+            "- Utiliser le framework Express pour mettre en oeuvre et configurer le serveur.",
+            "- Mettre en place le routing.",
+            "- Configurer une base de données afin de stocker et restituer les informations.",
+            "- Implémenter un modèle de données.",
+            "- Mettre en place les actions sur la base de données en vue de créer, rechercher, mettre à jour ou détruire des données.",
+            "- Mettre en place des opérations CRUD de manière sécurisée."
         ],
         "code":"https://github.com/CaroleGrllt/ROLLAND_GRELLETY_Carole_7_Mon-vieux-grimoire_012024"
     }

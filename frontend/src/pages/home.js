@@ -10,10 +10,12 @@ import Download from '../components/Download';
 import Bandeau from '../components/Bandeau';
 import Picto from '../components/Picto';
 import Projects from '../json/projects.json';
-import background from '../assets/img/home_background.jpg';
+
+import background from '../assets/img/cover/home_background.webp';
 import profil from '../assets/img/about_profil.webp';
 import cv from '../download/CV_ROLLAND_GRELLETY_Carole.pdf';
-import team from '../assets/img/team.jpg'
+import team from '../assets/img/cover/team.webp'
+
 import call from '../assets/img/pictogrammes/call.png';
 import email from '../assets/img/pictogrammes/email.png';
 import github from '../assets/img/pictogrammes/github.png';
@@ -48,7 +50,7 @@ export default function Home () {
                     />
                 </>
             </Layout50>
-            <section id="skills" class="layout__card">
+            <section id="skills" className="layout__card">
                 <div className="container">
                     <Title 
                         title={<>Découvrir mes <span className='bold'>réalisations</span> <br className="hide"/>et mes <span className='bold'>compétences</span></>}
@@ -57,7 +59,7 @@ export default function Home () {
                         el="Développement d'applications web front-end et de sites vitrines."
                     />
                     <LayoutCard >
-                        {Projects.map(project => {
+                        {Projects.map((project, key) => {
                             return <Card
                                 key={project.id}
                                 id={project.id}
@@ -81,10 +83,10 @@ export default function Home () {
                 <Title title={<>Vous avez un <span className='bold'>projet</span> ? Parlons-en !</>} />
                 <Bandeau img={team} alt={"Illustration équipe"}/>
                 <div className='picto_container'>
-                    <Picto source={call} alt={"pictogramme téléphone"} info={"06.10.84.38.67"} />
-                    <Picto source={email} alt={"pictogramme email"} info={"carole.grellety@gmail.com"} />
-                    <Picto source={github} alt={"pictogramme GitHub"} info={"Je sais plus"} />
-                    <Picto source={linkedin} alt={"pictogramme LinkedIn"} info={"Carole Rolland Grellety"} />
+                    <Picto source={call} alt={"pictogramme téléphone"} info={"06.10.84.38.67"} link={'tel:0033610843867'}/>
+                    <Picto source={email} alt={"pictogramme email"} info={"carole.rolland.grellety@gmail.com"} link={'mailto:carole.rolland.grellety@gmail.com'}/>
+                    <Picto source={github} alt={"pictogramme GitHub"} info={"CaroleGrllt"} link={'https://github.com/CaroleGrllt/'} />
+                    <Picto source={linkedin} alt={"pictogramme LinkedIn"} info={"Carole Rolland Grellety"} link={'https://www.linkedin.com/in/carole-rolland-grellety/'} />
                 </div>
                 </div>
             </section>

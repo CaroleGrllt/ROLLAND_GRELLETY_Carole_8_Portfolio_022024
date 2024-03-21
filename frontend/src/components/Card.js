@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from './Button';
+import MoreButton from './MoreBtn';
 import Tag from './Tag'
 
 export default function Card({id, cover, alt, title, subtitle, tags, btn}) {
@@ -14,13 +14,14 @@ export default function Card({id, cover, alt, title, subtitle, tags, btn}) {
                         <h3 className="card__title bold_italic">{title}</h3>
                         <span className="card__subtitle">{subtitle}</span>
                         <div className="tags-list">
-                        {tags.map(tag => {
+                        {tags.map((tag, key) => {
                             return <Tag 
+                            key={"tag-"+key}
                             el={tag}
                         />
                         })}
                         </div>
-                        <Button 
+                        <MoreButton 
                             link={"/project/" + id}
                             text={"En savoir plus"}
                         />

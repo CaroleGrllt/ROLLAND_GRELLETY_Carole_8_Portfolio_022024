@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import background from '../assets/img/home_background.jpg';
+import background from '../assets/img/cover/404.webp';
 
 
 export default function Error () {
@@ -13,8 +13,8 @@ export default function Error () {
             <Header
                 cover={background}
                 alt={'Illustration couverture'}
-                title={'Carole ROLLAND GRELLETY'}
-                subtitle={<>Développeuse web <span className="bold">front-end</span></>}
+                title={'Oups'}
+                subtitle={'Il n\' y a rien de ce côté-ci...'}
             />
         </header>
         <main>

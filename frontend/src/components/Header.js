@@ -1,21 +1,39 @@
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 export default function Header({cover, alt, title, year, subtitle}) {
+
+    const [showLinks, setShowLinks] = useState(false)
+    const handleShowLinks = () => {
+        setShowLinks(!showLinks)
+    }
+
+    const closeShowLinks = () => {
+        setShowLinks(false)
+    }
+
     return (
         <>
             <div className="navigation__container">
-                <nav>
-                    <ul>
+                <nav className="navbar ">
+                    <ul className={(showLinks ? "show-nav" : "" ) }>
                         <li>
-                            <a href="/#about">A propos</a>
+                            <a href="/" onClick={closeShowLinks}>Accueil</a>
                         </li>
                         <li>
-                            <a href="/#skills">Réalisations et compétences</a>
+                            <a href="/#about" onClick={closeShowLinks}>A propos</a>
                         </li>
                         <li>
-                            <a href="/#contact">Contact</a>
+                            <a href="/#skills" onClick={closeShowLinks}>Réalisations et compétences</a>
+                        </li>
+                        <li>
+                            <a href="/#contact" onClick={closeShowLinks}>Contact</a>
                         </li>
                     </ul>
+                    <div className='navbar_burger' onClick={handleShowLinks}>
+                        <FontAwesomeIcon icon={faBars} className={"fa_bars"}></FontAwesomeIcon>
+                    </div>
                 </nav>
             </div>
             <div className="cover__container">
