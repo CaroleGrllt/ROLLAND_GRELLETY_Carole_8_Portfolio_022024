@@ -1,0 +1,50 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+#works {
+    background-color:  $lightgrey;
+    padding: 25px;
+    margin: 20px 0 40px;
+
+    @include phablet {
+        padding: 25px 0,
+    }
+
+    @include tablet {
+        padding: 40px 0;
+    }
+
+    @include laptop {
+        padding: 50px 0 40px;
+    }
+
+    .container {
+        @include container;
+        @include phablet {
+            display: flex;
+            flex-direction: column;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 50px;
+            margin: 40px 0;
+
+            @include phablet {
+                width: 70%;
+                align-self: center;
+            }
+
+            @include tablet {
+                grid-template-columns: 1fr 1fr;
+                width: 100%;
+            }
+
+            @include laptop {
+                margin: 40px 0 60px;
+                grid-gap: 70px;
+
+            }
+        }
+    }
+}

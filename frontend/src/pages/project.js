@@ -4,10 +4,6 @@ import Projects from '../json/projects.json';
 import Footer from '../components/Footer';
 import Error from './error';
 import Image from '../components/Image';
-import background from '../assets/img/cover/home_background.webp';
-
-import ImgProjet from '../assets/img/projects/booki_projet.webp';
-
 import Layout50 from '../layout/layout50';
 import Collapse from '../components/Collapse';
 import Button from '../components/LinkButton';
@@ -26,7 +22,7 @@ export default function Project () {
                 <header>
                     <Header
                             key={project.id}
-                            cover={background}
+                            cover={project.cover}
                             alt={project.alt}
                             title={project.title}
                             year={project.year}
@@ -36,8 +32,8 @@ export default function Project () {
                 <main>
                     <section className='image__container'>
                         <Image 
-                            source={ImgProjet}
-                            alt={'...'}
+                            source={project.picture}
+                            alt={project.alt}
                         />
                     </section>
                     <Layout50>

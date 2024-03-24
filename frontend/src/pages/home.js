@@ -1,27 +1,33 @@
+// import required files
+import Projects from '../json/projects.json';
+import Skills from '../json/skills.json';
+
+// import layouts
+import Layout50 from '../layout/layout50';
+import LayoutProjectCard from '../layout/layoutProjectCard';
+import LayoutSkillCard from '../layout/layoutSkillCard';
+
+// import components
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Layout50 from '../layout/layout50';
-import LayoutCard from '../layout/layoutCard';
 import Text from '../components/Text';
 import Image from '../components/Image';
-import Card from '../components/Card';
+import ProjectCard from '../components/ProjectCard';
+import SkillCard from '../components/SkillCard';
 import Title from '../components/Title';
 import Download from '../components/Download';
 import Bandeau from '../components/Bandeau';
 import Picto from '../components/Picto';
-import Projects from '../json/projects.json';
 
+// import required documents and photos
 import background from '../assets/img/cover/home_background.webp';
 import profil from '../assets/img/about_profil.webp';
 import cv from '../download/CV_ROLLAND_GRELLETY_Carole.pdf';
 import team from '../assets/img/cover/team.webp'
-
 import call from '../assets/img/pictogrammes/call.png';
 import email from '../assets/img/pictogrammes/email.png';
 import github from '../assets/img/pictogrammes/github.png';
 import linkedin from '../assets/img/pictogrammes/linkedin.png';
-
-import Cover from '../assets/img/cover/booki_cover.webp';
 
 export default function Home () {
     return(
@@ -50,34 +56,52 @@ export default function Home () {
                     />
                 </>
             </Layout50>
-            <section id="skills" className="layout__card">
+            <section id="works" className="layout__card">
                 <div className="container">
                     <Title 
-                        title={<>Découvrir mes <span className='bold'>réalisations</span> <br className="hide"/>et mes <span className='bold'>compétences</span></>}
+                        title={<>Découvrir mes <span className='bold'>réalisations</span></>}
                     />
                     <Text 
                         el="Développement d'applications web front-end et de sites vitrines."
                     />
-                    <LayoutCard >
+                    <LayoutProjectCard >
                         {Projects.map((project, key) => {
-                            return <Card
+                            return <ProjectCard
                                 key={project.id}
                                 id={project.id}
-                                cover={Cover}
+                                cover={project.cover}
                                 alt={project.alt}
                                 title={project.title}
                                 subtitle={project.subtitle}
                                 tags={project.tags}
                             />
                         })}
-                    </LayoutCard>
+                    </LayoutProjectCard>
                     <Download 
                         link={cv}
                         text={"Télécharger mon CV"}
                     />
                 </div>
             </section>
-
+            <section id="skills" className='layout__skill'>
+                <div className="container">
+                    <Title 
+                        title={<>Parcourir mes <span className='bold'>compétences</span><br className="hide"/> et <span className='bold'>outils de travail</span>.</>}
+                    />
+                    <div className='skills_content'>
+                        <LayoutSkillCard>
+                            {Skills.map((skill, key) => {
+                                return <SkillCard 
+                                    key={skill.id}
+                                    id={skill.id}
+                                    title={skill.title}
+                                    logos={skill.logos}
+                                />
+                            })}
+                        </LayoutSkillCard>
+                    </div>
+                </div>         
+            </section>
             <section id="contact" className='contact'>
                 <div className="container">
                 <Title title={<>Vous avez un <span className='bold'>projet</span> ? Parlons-en !</>} />

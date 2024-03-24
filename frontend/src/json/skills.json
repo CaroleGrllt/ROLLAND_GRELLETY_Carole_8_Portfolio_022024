@@ -1,0 +1,48 @@
+[
+    {
+        "id": "1",
+        "title": "FRONT-END",
+        "logos": [
+            "https://carole-grellety.alwaysdata.net/skills/html.png",
+            "https://carole-grellety.alwaysdata.net/skills/css.png",
+            "https://carole-grellety.alwaysdata.net/skills/sass.png",
+            "https://carole-grellety.alwaysdata.net/skills/js.png",
+            "https://carole-grellety.alwaysdata.net/skills/react.png"
+        ]
+    },
+
+    {
+        "id": "2",
+        "title": "BACK-END",
+        "logos": [
+            "https://carole-grellety.alwaysdata.net/skills/nodejs.png",
+            "https://carole-grellety.alwaysdata.net/skills/express.png",
+            "https://carole-grellety.alwaysdata.net/skills/mongodb.png"
+        ]    
+    },
+
+    {
+        "id": "3",
+        "title": "OUTILS",
+        "logos": [
+            "https://carole-grellety.alwaysdata.net/skills/vsc.png",
+            "https://carole-grellety.alwaysdata.net/skills/figma.png",
+            "https://carole-grellety.alwaysdata.net/skills/git.png",
+            "https://carole-grellety.alwaysdata.net/skills/github.png",
+            "https://carole-grellety.alwaysdata.net/skills/gitkraken.png",
+            "https://carole-grellety.alwaysdata.net/skills/insomnia.png"
+        ] 
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+

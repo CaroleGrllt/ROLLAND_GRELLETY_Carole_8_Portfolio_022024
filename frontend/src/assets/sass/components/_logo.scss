@@ -1,0 +1,13 @@
+@import '../utils/variables';
+@import '../utils/mixins';
+
+.logo_content {
+    width: 100px;
+    height: 65px;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

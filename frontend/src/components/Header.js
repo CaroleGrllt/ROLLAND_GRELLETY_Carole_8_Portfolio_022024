@@ -25,7 +25,10 @@ export default function Header({cover, alt, title, year, subtitle}) {
                             <a href="/#about" onClick={closeShowLinks}>A propos</a>
                         </li>
                         <li>
-                            <a href="/#skills" onClick={closeShowLinks}>Réalisations et compétences</a>
+                            <a href="/#works" onClick={closeShowLinks}>Réalisations</a>
+                        </li>
+                        <li>
+                            <a href="/#skills" onClick={closeShowLinks}>Compétences</a>
                         </li>
                         <li>
                             <a href="/#contact" onClick={closeShowLinks}>Contact</a>

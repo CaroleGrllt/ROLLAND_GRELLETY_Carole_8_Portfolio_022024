@@ -3,11 +3,9 @@
         "id": "1",
         "title": "BOOKI",
         "year": "(2023)",
-        "cover": "../assets/img/cover/booki_cover.webp",
+        "cover": "https://carole-grellety.alwaysdata.net/cover/booki_cover.webp",
         "alt": "Illustration projet Booki",
-        "picture": [
-            ""
-        ],
+        "picture": "https://carole-grellety.alwaysdata.net/projects/booki_projet.webp",
         "subtitle": "Intégrer l'interface utilisateur d'un site de location immobilière, en HTML et CSS.",
         "tags": [
             "HTML",
@@ -29,11 +27,9 @@
         "id": "2",
         "title": "SOPHIE BLUEL",
         "year": "(2023)",
-        "cover": "",
+        "cover": "https://carole-grellety.alwaysdata.net/cover/bluel_cover.webp",
         "alt": "Illustration projet Sophie Bluel",
-        "picture": [
-            ""
-        ],
+        "picture": "https://carole-grellety.alwaysdata.net/projects/bluel_project.webp",
         "subtitle": "Développer l'interface dynamique du site portfolio d'une architecte d'intérieur.",
         "tags": [
             "HTML",
@@ -54,11 +50,9 @@
         "id": "3",
         "title": "NINA CARDUCCI",
         "year": "(2023)",
-        "cover": "",
+        "cover": "https://carole-grellety.alwaysdata.net/cover/carducci_cover.webp",
         "alt": "Illustration projet Nina Carducci",
-        "picture": [
-            ""
-        ],
+        "picture": "https://carole-grellety.alwaysdata.net/projects/carducci_project.webp",
         "subtitle": "Debugger, optimiser et améliorer le SEO du site d'une photographe.",
         "tags": [
             "HTML",
@@ -81,11 +75,9 @@
         "id": "4",
         "title": "KASA",
         "year": "(2023)",
-        "cover": "",
+        "cover": "https://carole-grellety.alwaysdata.net/cover/kasa_cover.webp",
         "alt": "Illustration projet Kasa",
-        "picture": [
-            ""
-        ],
+        "picture": "https://carole-grellety.alwaysdata.net/projects/kasa_project.webp",
         "subtitle": "Développer l'interface utilisateur d'une agence immobilière avec React.",
         "tags": [
             "REACT",
@@ -107,11 +99,9 @@
         "id": "5",
         "title": "MON VIEUX GRIMOIRE",
         "year": "(2024)",
-        "cover": "",
+        "cover": "https://carole-grellety.alwaysdata.net/cover/mvg_cover.webp",
         "alt": "Illustration projet Mon vieux grimoire",
-        "picture": [
-            ""
-        ],
+        "picture": "https://carole-grellety.alwaysdata.net/projects/mvg_project.webp",
         "subtitle": "Développer le back-end d'un site de publication et de notation de livres.",
         "tags": [
             "NODEJS",

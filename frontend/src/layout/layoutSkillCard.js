@@ -1,5 +1,4 @@
-
-export default function LayoutCard({children}) {
+export default function LayoutSkillCard({children}) {
     return (
         <div className="cards">{children}</div>
     )
