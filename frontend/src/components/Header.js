@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 export default function Header({cover, alt, title, year, subtitle}) {
 
@@ -19,19 +21,19 @@ export default function Header({cover, alt, title, year, subtitle}) {
                 <nav className="navbar ">
                     <ul className={(showLinks ? "show-nav" : "" ) }>
                         <li>
-                            <a href="/" onClick={closeShowLinks}>Accueil</a>
+                            <Link to="/" onClick={closeShowLinks}>Accueil</Link>
                         </li>
                         <li>
-                            <a href="/#about" onClick={closeShowLinks}>A propos</a>
+                            <HashLink to="/#about" onClick={closeShowLinks}>A propos</HashLink>
                         </li>
                         <li>
-                            <a href="/#works" onClick={closeShowLinks}>Réalisations</a>
+                            <HashLink to="/#works" onClick={closeShowLinks}>Réalisations</HashLink>
                         </li>
                         <li>
-                            <a href="/#skills" onClick={closeShowLinks}>Compétences</a>
+                            <HashLink to="/#skills" onClick={closeShowLinks}>Compétences</HashLink>
                         </li>
                         <li>
-                            <a href="/#contact" onClick={closeShowLinks}>Contact</a>
+                            <HashLink to="/#contact" onClick={closeShowLinks}>Contact</HashLink>
                         </li>
                     </ul>
                     <div className='navbar_burger' onClick={handleShowLinks}>
